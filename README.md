@@ -77,13 +77,15 @@ PARAMS = {
     "limit": 50
 }
 
-##❗ Error Handling
-Handles failed API calls
-Logs errors in logs/
-Skips invalid responses
+---
 
-##📈 Future Enhancements
-Add scheduling (Cron / Airflow)
-Store data in database
-Incremental data loading
-Data pipeline integration
+## ❗ Error Handling
+- Handles failed API calls  
+- Logs errors in `logs/` directory  
+- Skips invalid or empty responses  
+
+## 📈 Future Enhancements
+- Add scheduling (Cron / Airflow)  
+- Store data in database  
+- Implement incremental data loading  
+- Integrate with data pipelines  
